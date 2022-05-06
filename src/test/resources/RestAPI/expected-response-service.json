@@ -1,0 +1,2313 @@
+[
+  {
+    "name": "example_update",
+    "resource": "/api/asset_items/example_update:GET"
+  },
+  {
+    "name": "update",
+    "resource": "/api/asset_items:PUT"
+  },
+  {
+    "name": "co_corr_rectype_next_seq_nr_search",
+    "resource": "/api/customservices/assaimobile/coel/co_corr_rectype_next_seq_nr_search:GET"
+  },
+  {
+    "name": "co_corr_rectype_seq_nrs",
+    "resource": "/api/customservices/assaimobile/coel/co_corr_rectype_seq_nrs:GET"
+  },
+  {
+    "name": "get_composition_elements_by_subclass_code",
+    "resource": "/api/customservices/assaimobile/coel/get_composition_elements_by_subclass_code:GET"
+  },
+  {
+    "name": "attach_delete",
+    "resource": "/api/customservices/assaimobile/crud/attach_delete:GET"
+  },
+  {
+    "name": "attach_insert",
+    "resource": "/api/customservices/assaimobile/crud/attach_insert:GET"
+  },
+  {
+    "name": "document_select",
+    "resource": "/api/customservices/assaimobile/crud/document_select:GET"
+  },
+  {
+    "name": "query_insert",
+    "resource": "/api/customservices/assaimobile/crud/query_insert:GET"
+  },
+  {
+    "name": "query_select",
+    "resource": "/api/customservices/assaimobile/crud/query_select:GET"
+  },
+  {
+    "name": "query_update",
+    "resource": "/api/customservices/assaimobile/crud/query_update:GET"
+  },
+  {
+    "name": "response_insert",
+    "resource": "/api/customservices/assaimobile/crud/response_insert:GET"
+  },
+  {
+    "name": "response_select",
+    "resource": "/api/customservices/assaimobile/crud/response_select:GET"
+  },
+  {
+    "name": "response_update",
+    "resource": "/api/customservices/assaimobile/crud/response_update:GET"
+  },
+  {
+    "name": "dbi_asset_item_5_levels",
+    "resource": "/api/customservices/assaimobile/dbi_asset_item_5_levels:GET"
+  },
+  {
+    "name": "dbi_asset_item_attributes",
+    "resource": "/api/customservices/assaimobile/dbi_asset_item_attributes:GET"
+  },
+  {
+    "name": "delete_attachment_file",
+    "resource": "/api/customservices/assaimobile/delete_attachment_file:GET"
+  },
+  {
+    "name": "delete_response_file",
+    "resource": "/api/customservices/assaimobile/delete_response_file:GET"
+  },
+  {
+    "name": "get_attachments",
+    "resource": "/api/customservices/assaimobile/get_attachments:GET"
+  },
+  {
+    "name": "get_query_responses",
+    "resource": "/api/customservices/assaimobile/get_query_responses:GET"
+  },
+  {
+    "name": "get_screen_config",
+    "resource": "/api/customservices/assaimobile/get_screen_config:GET"
+  },
+  {
+    "name": "clas_seq_nr_by_code",
+    "resource": "/api/customservices/assaimobile/login/clas_seq_nr_by_code:GET"
+  },
+  {
+    "name": "get_external_indicators",
+    "resource": "/api/customservices/assaimobile/login/get_external_indicators:GET"
+  },
+  {
+    "name": "get_function_type",
+    "resource": "/api/customservices/assaimobile/login/get_function_type:GET"
+  },
+  {
+    "name": "get_sypa_value_by_code",
+    "resource": "/api/customservices/assaimobile/login/get_sypa_value_by_code:GET"
+  },
+  {
+    "name": "get_user_data",
+    "resource": "/api/customservices/assaimobile/login/get_user_data:GET"
+  },
+  {
+    "name": "access_code",
+    "resource": "/api/customservices/assaimobile/lov/access_code:GET"
+  },
+  {
+    "name": "approval_code",
+    "resource": "/api/customservices/assaimobile/lov/approval_code:GET"
+  },
+  {
+    "name": "asset_code",
+    "resource": "/api/customservices/assaimobile/lov/asset_code:GET"
+  },
+  {
+    "name": "asset_item",
+    "resource": "/api/customservices/assaimobile/lov/asset_item:GET"
+  },
+  {
+    "name": "classification_code",
+    "resource": "/api/customservices/assaimobile/lov/classification_code:GET"
+  },
+  {
+    "name": "company_code",
+    "resource": "/api/customservices/assaimobile/lov/company_code:GET"
+  },
+  {
+    "name": "discipline_code",
+    "resource": "/api/customservices/assaimobile/lov/discipline_code:GET"
+  },
+  {
+    "name": "document_type",
+    "resource": "/api/customservices/assaimobile/lov/document_type:GET"
+  },
+  {
+    "name": "issue_code",
+    "resource": "/api/customservices/assaimobile/lov/issue_code:GET"
+  },
+  {
+    "name": "language",
+    "resource": "/api/customservices/assaimobile/lov/language:GET"
+  },
+  {
+    "name": "person_code_not_internal",
+    "resource": "/api/customservices/assaimobile/lov/person_code_not_internal:GET"
+  },
+  {
+    "name": "priority_code",
+    "resource": "/api/customservices/assaimobile/lov/priority_code:GET"
+  },
+  {
+    "name": "project_code",
+    "resource": "/api/customservices/assaimobile/lov/project_code:GET"
+  },
+  {
+    "name": "purchase_order",
+    "resource": "/api/customservices/assaimobile/lov/purchase_order:GET"
+  },
+  {
+    "name": "retention_code",
+    "resource": "/api/customservices/assaimobile/lov/retention_code:GET"
+  },
+  {
+    "name": "status_code",
+    "resource": "/api/customservices/assaimobile/lov/status_code:GET"
+  },
+  {
+    "name": "subclass_code",
+    "resource": "/api/customservices/assaimobile/lov/subclass_code:GET"
+  },
+  {
+    "name": "work_flow_code",
+    "resource": "/api/customservices/assaimobile/lov/work_flow_code:GET"
+  },
+  {
+    "name": "work_package_code",
+    "resource": "/api/customservices/assaimobile/lov/work_package_code:GET"
+  },
+  {
+    "name": "change_current_project",
+    "resource": "/api/customservices/assaimobile/misc/change_current_project:GET"
+  },
+  {
+    "name": "get_due_date",
+    "resource": "/api/customservices/assaimobile/misc/get_due_date:GET"
+  },
+  {
+    "name": "select_latest_response",
+    "resource": "/api/customservices/assaimobile/misc/select_latest_response:GET"
+  },
+  {
+    "name": "select_qry_close_out_date",
+    "resource": "/api/customservices/assaimobile/misc/select_qry_close_out_date:GET"
+  },
+  {
+    "name": "search_doc_asset_items",
+    "resource": "/api/customservices/assaimobile/search_doc_asset_items:GET"
+  },
+  {
+    "name": "search_doc_revisions",
+    "resource": "/api/customservices/assaimobile/search_doc_revisions:GET"
+  },
+  {
+    "name": "search_documents",
+    "resource": "/api/customservices/assaimobile/search_documents:GET"
+  },
+  {
+    "name": "search_qry_attachments",
+    "resource": "/api/customservices/assaimobile/search_qry_attachments:GET"
+  },
+  {
+    "name": "search_qry_responses",
+    "resource": "/api/customservices/assaimobile/search_qry_responses:GET"
+  },
+  {
+    "name": "search_queries",
+    "resource": "/api/customservices/assaimobile/search_queries:GET"
+  },
+  {
+    "name": "co_corr_rectype_next_seq_nr_search",
+    "resource": "/api/customservices/eu602/coel/co_corr_rectype_next_seq_nr_search:GET"
+  },
+  {
+    "name": "co_corr_rectype_seq_nrs",
+    "resource": "/api/customservices/eu602/coel/co_corr_rectype_seq_nrs:GET"
+  },
+  {
+    "name": "get_composition_elements_by_subclass_code",
+    "resource": "/api/customservices/eu602/coel/get_composition_elements_by_subclass_code:GET"
+  },
+  {
+    "name": "attach_delete",
+    "resource": "/api/customservices/eu602/crud/attach_delete:GET"
+  },
+  {
+    "name": "attach_insert",
+    "resource": "/api/customservices/eu602/crud/attach_insert:GET"
+  },
+  {
+    "name": "document_select",
+    "resource": "/api/customservices/eu602/crud/document_select:GET"
+  },
+  {
+    "name": "query_insert",
+    "resource": "/api/customservices/eu602/crud/query_insert:GET"
+  },
+  {
+    "name": "query_select",
+    "resource": "/api/customservices/eu602/crud/query_select:GET"
+  },
+  {
+    "name": "query_update",
+    "resource": "/api/customservices/eu602/crud/query_update:GET"
+  },
+  {
+    "name": "response_insert",
+    "resource": "/api/customservices/eu602/crud/response_insert:GET"
+  },
+  {
+    "name": "response_select",
+    "resource": "/api/customservices/eu602/crud/response_select:GET"
+  },
+  {
+    "name": "response_update",
+    "resource": "/api/customservices/eu602/crud/response_update:GET"
+  },
+  {
+    "name": "dbi_asset_item_5_levels",
+    "resource": "/api/customservices/eu602/dbi_asset_item_5_levels:GET"
+  },
+  {
+    "name": "dbi_asset_item_attributes",
+    "resource": "/api/customservices/eu602/dbi_asset_item_attributes:GET"
+  },
+  {
+    "name": "delete_attachment_file",
+    "resource": "/api/customservices/eu602/delete_attachment_file:GET"
+  },
+  {
+    "name": "delete_response_file",
+    "resource": "/api/customservices/eu602/delete_response_file:GET"
+  },
+  {
+    "name": "get_attachments",
+    "resource": "/api/customservices/eu602/get_attachments:GET"
+  },
+  {
+    "name": "get_query_responses",
+    "resource": "/api/customservices/eu602/get_query_responses:GET"
+  },
+  {
+    "name": "get_screen_config",
+    "resource": "/api/customservices/eu602/get_screen_config:GET"
+  },
+  {
+    "name": "clas_seq_nr_by_code",
+    "resource": "/api/customservices/eu602/login/clas_seq_nr_by_code:GET"
+  },
+  {
+    "name": "get_external_indicators",
+    "resource": "/api/customservices/eu602/login/get_external_indicators:GET"
+  },
+  {
+    "name": "get_function_type",
+    "resource": "/api/customservices/eu602/login/get_function_type:GET"
+  },
+  {
+    "name": "get_sypa_value_by_code",
+    "resource": "/api/customservices/eu602/login/get_sypa_value_by_code:GET"
+  },
+  {
+    "name": "get_user_data",
+    "resource": "/api/customservices/eu602/login/get_user_data:GET"
+  },
+  {
+    "name": "access_code",
+    "resource": "/api/customservices/eu602/lov/access_code:GET"
+  },
+  {
+    "name": "approval_code",
+    "resource": "/api/customservices/eu602/lov/approval_code:GET"
+  },
+  {
+    "name": "asset_code",
+    "resource": "/api/customservices/eu602/lov/asset_code:GET"
+  },
+  {
+    "name": "asset_item",
+    "resource": "/api/customservices/eu602/lov/asset_item:GET"
+  },
+  {
+    "name": "classification_code",
+    "resource": "/api/customservices/eu602/lov/classification_code:GET"
+  },
+  {
+    "name": "company_code",
+    "resource": "/api/customservices/eu602/lov/company_code:GET"
+  },
+  {
+    "name": "discipline_code",
+    "resource": "/api/customservices/eu602/lov/discipline_code:GET"
+  },
+  {
+    "name": "document_type",
+    "resource": "/api/customservices/eu602/lov/document_type:GET"
+  },
+  {
+    "name": "issue_code",
+    "resource": "/api/customservices/eu602/lov/issue_code:GET"
+  },
+  {
+    "name": "language",
+    "resource": "/api/customservices/eu602/lov/language:GET"
+  },
+  {
+    "name": "person_code_not_internal",
+    "resource": "/api/customservices/eu602/lov/person_code_not_internal:GET"
+  },
+  {
+    "name": "priority_code",
+    "resource": "/api/customservices/eu602/lov/priority_code:GET"
+  },
+  {
+    "name": "project_code",
+    "resource": "/api/customservices/eu602/lov/project_code:GET"
+  },
+  {
+    "name": "purchase_order",
+    "resource": "/api/customservices/eu602/lov/purchase_order:GET"
+  },
+  {
+    "name": "retention_code",
+    "resource": "/api/customservices/eu602/lov/retention_code:GET"
+  },
+  {
+    "name": "status_code",
+    "resource": "/api/customservices/eu602/lov/status_code:GET"
+  },
+  {
+    "name": "subclass_code",
+    "resource": "/api/customservices/eu602/lov/subclass_code:GET"
+  },
+  {
+    "name": "work_flow_code",
+    "resource": "/api/customservices/eu602/lov/work_flow_code:GET"
+  },
+  {
+    "name": "work_package_code",
+    "resource": "/api/customservices/eu602/lov/work_package_code:GET"
+  },
+  {
+    "name": "change_current_project",
+    "resource": "/api/customservices/eu602/misc/change_current_project:GET"
+  },
+  {
+    "name": "get_due_date",
+    "resource": "/api/customservices/eu602/misc/get_due_date:GET"
+  },
+  {
+    "name": "select_latest_response",
+    "resource": "/api/customservices/eu602/misc/select_latest_response:GET"
+  },
+  {
+    "name": "select_qry_close_out_date",
+    "resource": "/api/customservices/eu602/misc/select_qry_close_out_date:GET"
+  },
+  {
+    "name": "search_doc_asset_items",
+    "resource": "/api/customservices/eu602/search_doc_asset_items:GET"
+  },
+  {
+    "name": "search_doc_revisions",
+    "resource": "/api/customservices/eu602/search_doc_revisions:GET"
+  },
+  {
+    "name": "search_documents",
+    "resource": "/api/customservices/eu602/search_documents:GET"
+  },
+  {
+    "name": "search_qry_attachments",
+    "resource": "/api/customservices/eu602/search_qry_attachments:GET"
+  },
+  {
+    "name": "search_qry_responses",
+    "resource": "/api/customservices/eu602/search_qry_responses:GET"
+  },
+  {
+    "name": "search_queries",
+    "resource": "/api/customservices/eu602/search_queries:GET"
+  },
+  {
+    "name": "download",
+    "resource": "/api/fils/download:GET",
+    "categories": [
+      "download"
+    ]
+  },
+  {
+    "name": "download_by_entity_code",
+    "resource": "/api/fils/download_by_entity_code:GET",
+    "categories": [
+      "download"
+    ]
+  },
+  {
+    "name": "download_by_entt_seq_nr",
+    "resource": "/api/fils/download_by_entt_seq_nr:GET",
+    "categories": [
+      "download"
+    ]
+  },
+  {
+    "name": "download_correspondence",
+    "resource": "/api/fils/download_correspondence:GET",
+    "categories": [
+      "download"
+    ]
+  },
+  {
+    "name": "download_document",
+    "resource": "/api/fils/download_document:GET",
+    "categories": [
+      "download"
+    ]
+  },
+  {
+    "name": "download_get_token",
+    "resource": "/api/fils/download_get_token:GET",
+    "categories": [
+      "download"
+    ]
+  },
+  {
+    "name": "download_query",
+    "resource": "/api/fils/download_query:GET",
+    "categories": [
+      "download"
+    ]
+  },
+  {
+    "name": "download_scheduled_job",
+    "resource": "/api/fils/download_scheduled_job:GET",
+    "categories": [
+      "download"
+    ]
+  },
+  {
+    "name": "example_load",
+    "resource": "/api/load_asset_hierarchy/example_load:GET"
+  },
+  {
+    "name": "list_fields",
+    "resource": "/api/load_asset_hierarchy/list_fields:GET"
+  },
+  {
+    "name": "insert",
+    "resource": "/api/load_asset_hierarchy:POST"
+  },
+  {
+    "name": "example_load",
+    "resource": "/api/load_asset_items/example_load:GET"
+  },
+  {
+    "name": "list_fields",
+    "resource": "/api/load_asset_items/list_fields:GET"
+  },
+  {
+    "name": "upload",
+    "resource": "/api/load_asset_items/upload:POST"
+  },
+  {
+    "name": "insert",
+    "resource": "/api/load_asset_items:POST"
+  },
+  {
+    "name": "example_load",
+    "resource": "/api/load_asset_obj_rel/example_load:GET"
+  },
+  {
+    "name": "list_fields",
+    "resource": "/api/load_asset_obj_rel/list_fields:GET"
+  },
+  {
+    "name": "insert",
+    "resource": "/api/load_asset_obj_rel:POST"
+  },
+  {
+    "name": "insert",
+    "resource": "/api/load_reference_data:POST"
+  },
+  {
+    "name": "example_load",
+    "resource": "/api/load_revisions/example_load:GET",
+    "categories": [
+      "load_revisions"
+    ]
+  },
+  {
+    "name": "list_fields",
+    "resource": "/api/load_revisions/list_fields:GET",
+    "categories": [
+      "load_revisions"
+    ]
+  },
+  {
+    "name": "upload",
+    "resource": "/api/load_revisions/upload:POST",
+    "categories": [
+      "load_revisions"
+    ]
+  },
+  {
+    "name": "insert",
+    "resource": "/api/load_revisions:POST",
+    "categories": [
+      "load_revisions"
+    ]
+  },
+  {
+    "name": "poll",
+    "resource": "/api/long_running/poll:GET"
+  },
+  {
+    "name": "approval_codes",
+    "resource": "/api/lov/approval_codes:GET"
+  },
+  {
+    "name": "classes",
+    "resource": "/api/lov/classes:GET"
+  },
+  {
+    "name": "classifications",
+    "resource": "/api/lov/classifications:GET"
+  },
+  {
+    "name": "companies",
+    "resource": "/api/lov/companies:GET"
+  },
+  {
+    "name": "disciplines",
+    "resource": "/api/lov/disciplines:GET"
+  },
+  {
+    "name": "document_statuses",
+    "resource": "/api/lov/document_statuses:GET"
+  },
+  {
+    "name": "document_types",
+    "resource": "/api/lov/document_types:GET"
+  },
+  {
+    "name": "entities",
+    "resource": "/api/lov/entities:GET"
+  },
+  {
+    "name": "persons",
+    "resource": "/api/lov/persons:GET"
+  },
+  {
+    "name": "priorities",
+    "resource": "/api/lov/priorities:GET"
+  },
+  {
+    "name": "projects",
+    "resource": "/api/lov/projects:GET"
+  },
+  {
+    "name": "retention_periods",
+    "resource": "/api/lov/retention_periods:GET"
+  },
+  {
+    "name": "revision_codes",
+    "resource": "/api/lov/revision_codes:GET"
+  },
+  {
+    "name": "subclasses",
+    "resource": "/api/lov/subclasses:GET"
+  },
+  {
+    "name": "workflow_items",
+    "resource": "/api/lov/workflow_items:GET"
+  },
+  {
+    "name": "insert",
+    "resource": "/api/packages:POST"
+  },
+  {
+    "name": "document_progress",
+    "resource": "/api/planning/document_progress:GET"
+  },
+  {
+    "name": "upload",
+    "resource": "/api/purchase_orders/upload:POST",
+    "categories": [
+      "puor"
+    ]
+  },
+  {
+    "name": "insert",
+    "resource": "/api/purchase_orders:POST",
+    "categories": [
+      "puor"
+    ]
+  },
+  {
+    "name": "call_insert_elements",
+    "resource": "/api/services/assaimobile/coel/call_insert_elements:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "call_validate_element_value",
+    "resource": "/api/services/assaimobile/coel/call_validate_element_value:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "co_corr_rectype_next_seq_nr_search",
+    "resource": "/api/services/assaimobile/coel/co_corr_rectype_next_seq_nr_search:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "co_corr_rectype_seq_nrs",
+    "resource": "/api/services/assaimobile/coel/co_corr_rectype_seq_nrs:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "cocorr100_default_values",
+    "resource": "/api/services/assaimobile/coel/cocorr100_default_values:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_composition_elements_by_subclass_code",
+    "resource": "/api/services/assaimobile/coel/get_composition_elements_by_subclass_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "ascl_select",
+    "resource": "/api/services/assaimobile/crud/ascl_select:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "ascl_update",
+    "resource": "/api/services/assaimobile/crud/ascl_update:PUT",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "asset_item_select",
+    "resource": "/api/services/assaimobile/crud/asset_item_select:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "attach_delete",
+    "resource": "/api/services/assaimobile/crud/attach_delete:DELETE",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "attach_insert",
+    "resource": "/api/services/assaimobile/crud/attach_insert:POST",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "checkpoint_select",
+    "resource": "/api/services/assaimobile/crud/checkpoint_select:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "checkpoint_update",
+    "resource": "/api/services/assaimobile/crud/checkpoint_update:PUT",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "document_select",
+    "resource": "/api/services/assaimobile/crud/document_select:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "fils_select",
+    "resource": "/api/services/assaimobile/crud/fils_select:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "fils_update",
+    "resource": "/api/services/assaimobile/crud/fils_update:PUT",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "multiple_checkpoints_update",
+    "resource": "/api/services/assaimobile/crud/multiple_checkpoints_update:PUT",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "query_delete",
+    "resource": "/api/services/assaimobile/crud/query_delete:DELETE",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "query_insert",
+    "resource": "/api/services/assaimobile/crud/query_insert:POST",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "query_select",
+    "resource": "/api/services/assaimobile/crud/query_select:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "query_update",
+    "resource": "/api/services/assaimobile/crud/query_update:PUT",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "response_insert",
+    "resource": "/api/services/assaimobile/crud/response_insert:POST",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "response_select",
+    "resource": "/api/services/assaimobile/crud/response_select:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "response_update",
+    "resource": "/api/services/assaimobile/crud/response_update:PUT",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "delete_attachment_file",
+    "resource": "/api/services/assaimobile/delete_attachment_file:POST",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "delete_checklist",
+    "resource": "/api/services/assaimobile/delete_checklist:DELETE",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "delete_checkpoint",
+    "resource": "/api/services/assaimobile/delete_checkpoint:DELETE",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "delete_response_file",
+    "resource": "/api/services/assaimobile/delete_response_file:POST",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_attachments",
+    "resource": "/api/services/assaimobile/get_attachments:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_checklists_count",
+    "resource": "/api/services/assaimobile/get_checklists_count:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_query_responses",
+    "resource": "/api/services/assaimobile/get_query_responses:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_screen_config",
+    "resource": "/api/services/assaimobile/get_screen_config:POST",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "check_accessible_clause2",
+    "resource": "/api/services/assaimobile/includes/check_accessible_clause2:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "check_accessible_clause",
+    "resource": "/api/services/assaimobile/includes/check_accessible_clause:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "subclass_accessible_clause",
+    "resource": "/api/services/assaimobile/includes/subclass_accessible_clause:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "call_dcrepe100_retention_date",
+    "resource": "/api/services/assaimobile/login/call_dcrepe100_retention_date:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "clas_seq_nr_by_code",
+    "resource": "/api/services/assaimobile/login/clas_seq_nr_by_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_external_indicators",
+    "resource": "/api/services/assaimobile/login/get_external_indicators:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_function_type",
+    "resource": "/api/services/assaimobile/login/get_function_type:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_own_company_pk_seq_nr",
+    "resource": "/api/services/assaimobile/login/get_own_company_pk_seq_nr:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_signature_fils_seq_nr",
+    "resource": "/api/services/assaimobile/login/get_signature_fils_seq_nr:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_sypa_value_by_code",
+    "resource": "/api/services/assaimobile/login/get_sypa_value_by_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_user_data",
+    "resource": "/api/services/assaimobile/login/get_user_data:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "access_code",
+    "resource": "/api/services/assaimobile/lov/access_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "approval_code",
+    "resource": "/api/services/assaimobile/lov/approval_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "asset_code",
+    "resource": "/api/services/assaimobile/lov/asset_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "asset_item",
+    "resource": "/api/services/assaimobile/lov/asset_item:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "asset_type",
+    "resource": "/api/services/assaimobile/lov/asset_type:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "brava_client_target",
+    "resource": "/api/services/assaimobile/lov/brava_client_target:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "checklist_status",
+    "resource": "/api/services/assaimobile/lov/checklist_status:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "checkpoint_status",
+    "resource": "/api/services/assaimobile/lov/checkpoint_status:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "classification_code",
+    "resource": "/api/services/assaimobile/lov/classification_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "company_code",
+    "resource": "/api/services/assaimobile/lov/company_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "discipline_code",
+    "resource": "/api/services/assaimobile/lov/discipline_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "document_type",
+    "resource": "/api/services/assaimobile/lov/document_type:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "issue_code",
+    "resource": "/api/services/assaimobile/lov/issue_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "language",
+    "resource": "/api/services/assaimobile/lov/language:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "person_code_not_internal",
+    "resource": "/api/services/assaimobile/lov/person_code_not_internal:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "priority_code",
+    "resource": "/api/services/assaimobile/lov/priority_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "project_code",
+    "resource": "/api/services/assaimobile/lov/project_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "punch_list_category",
+    "resource": "/api/services/assaimobile/lov/punch_list_category:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "purchase_order",
+    "resource": "/api/services/assaimobile/lov/purchase_order:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "retention_code",
+    "resource": "/api/services/assaimobile/lov/retention_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "status_code",
+    "resource": "/api/services/assaimobile/lov/status_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "subclass_code",
+    "resource": "/api/services/assaimobile/lov/subclass_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "template_files_pdf",
+    "resource": "/api/services/assaimobile/lov/template_files_pdf:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "work_flow_code",
+    "resource": "/api/services/assaimobile/lov/work_flow_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "work_package_code",
+    "resource": "/api/services/assaimobile/lov/work_package_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "add_object_asset_items",
+    "resource": "/api/services/assaimobile/misc/add_object_asset_items:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "call_cocorr100_due_date",
+    "resource": "/api/services/assaimobile/misc/call_cocorr100_due_date:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "change_current_project",
+    "resource": "/api/services/assaimobile/misc/change_current_project:POST",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "dcstco00_change_ctx",
+    "resource": "/api/services/assaimobile/misc/dcstco00_change_ctx:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_due_date",
+    "resource": "/api/services/assaimobile/misc/get_due_date:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_redlining_url",
+    "resource": "/api/services/assaimobile/misc/get_redlining_url:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "insert_asset_items",
+    "resource": "/api/services/assaimobile/misc/insert_asset_items:POST",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "select_latest_response",
+    "resource": "/api/services/assaimobile/misc/select_latest_response:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "select_qry_close_out_date",
+    "resource": "/api/services/assaimobile/misc/select_qry_close_out_date:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "create_form_from_template_for_entity",
+    "resource": "/api/services/assaimobile/pdf/create_form_from_template_for_entity:POST",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_fields_from_form",
+    "resource": "/api/services/assaimobile/pdf/get_fields_from_form:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_form_fields_for_entity",
+    "resource": "/api/services/assaimobile/pdf/get_form_fields_for_entity:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_signature_path_for_user",
+    "resource": "/api/services/assaimobile/pdf/get_signature_path_for_user:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "template_file_search_fity",
+    "resource": "/api/services/assaimobile/pdf/template_file_search_fity:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "upload_image_and_form_fields_for_entity",
+    "resource": "/api/services/assaimobile/pdf/upload_image_and_form_fields_for_entity:POST",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_asset_item_checklists",
+    "resource": "/api/services/assaimobile/search_asset_item_checklists:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_asset_items",
+    "resource": "/api/services/assaimobile/search_asset_items:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_checklist_checkpoint_files",
+    "resource": "/api/services/assaimobile/search_checklist_checkpoint_files:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_checklist_checkpoints",
+    "resource": "/api/services/assaimobile/search_checklist_checkpoints:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_checklist_files",
+    "resource": "/api/services/assaimobile/search_checklist_files:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_checklists",
+    "resource": "/api/services/assaimobile/search_checklists:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_checkpoint_files",
+    "resource": "/api/services/assaimobile/search_checkpoint_files:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_doc_asset_items",
+    "resource": "/api/services/assaimobile/search_doc_asset_items:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_doc_redline_markups",
+    "resource": "/api/services/assaimobile/search_doc_redline_markups:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_doc_revisions",
+    "resource": "/api/services/assaimobile/search_doc_revisions:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_doc_user_defined_attributes",
+    "resource": "/api/services/assaimobile/search_doc_user_defined_attributes:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_documents",
+    "resource": "/api/services/assaimobile/search_documents:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_qry_asset_items",
+    "resource": "/api/services/assaimobile/search_qry_asset_items:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_qry_attachments",
+    "resource": "/api/services/assaimobile/search_qry_attachments:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_qry_inbox",
+    "resource": "/api/services/assaimobile/search_qry_inbox:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_qry_inbox_external",
+    "resource": "/api/services/assaimobile/search_qry_inbox_external:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_qry_responses",
+    "resource": "/api/services/assaimobile/search_qry_responses:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "search_queries",
+    "resource": "/api/services/assaimobile/search_queries:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "call_dcwfac00_next_workflow_step",
+    "resource": "/api/services/assaimobile/wfl/call_dcwfac00_next_workflow_step:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "call_dcwfac00_update_workflow",
+    "resource": "/api/services/assaimobile/wfl/call_dcwfac00_update_workflow:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "call_dcwfac100_delete_actions",
+    "resource": "/api/services/assaimobile/wfl/call_dcwfac100_delete_actions:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "create_initial_workflow_action",
+    "resource": "/api/services/assaimobile/wfl/create_initial_workflow_action:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "get_query_workflow_actions",
+    "resource": "/api/services/assaimobile/wfl/get_query_workflow_actions:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "update_workflow_action",
+    "resource": "/api/services/assaimobile/wfl/update_workflow_action:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "wfit_entt_key_by_code",
+    "resource": "/api/services/assaimobile/wfl/wfit_entt_key_by_code:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "workflow_actions",
+    "resource": "/api/services/assaimobile/wfl/workflow_actions:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "notifications",
+    "resource": "/api/services/notifications:GET",
+    "categories": [
+      "private"
+    ]
+  },
+  {
+    "name": "document_files",
+    "resource": "/api/services/public/files/document_files:GET"
+  },
+  {
+    "name": "about_info",
+    "resource": "/api/services/public/util/about_info:GET"
+  },
+  {
+    "name": "delete_access_token",
+    "resource": "/api/services/public/util/delete_access_token:DELETE"
+  },
+  {
+    "name": "download_qr_code",
+    "resource": "/api/services/public/util/download_qr_code:GET"
+  },
+  {
+    "name": "generate_jwt_token",
+    "resource": "/api/services/public/util/generate_jwt_token:GET"
+  },
+  {
+    "name": "search_rest_api_log",
+    "resource": "/api/services/public/util/search_rest_api_log:GET"
+  },
+  {
+    "name": "services_info",
+    "resource": "/api/services/public/util/services_info:GET"
+  },
+  {
+    "name": "token_info",
+    "resource": "/api/services/public/util/token_info:GET"
+  },
+  {
+    "name": "subscriber_token",
+    "resource": "/api/subscriptions/subscriber_token:GET",
+    "categories": [
+      "graphql"
+    ]
+  },
+  {
+    "name": "asset_items",
+    "resource": "/api/views/asset_items:GET"
+  },
+  {
+    "name": "asset_relationships",
+    "resource": "/api/views/asset_relationships:GET"
+  },
+  {
+    "name": "assets",
+    "resource": "/api/views/assets:GET"
+  },
+  {
+    "name": "bulkload_rejects",
+    "resource": "/api/views/bulkload_rejects:GET"
+  },
+  {
+    "name": "ce_transfer_notify_list",
+    "resource": "/api/views/ce_transfer_notify_list:GET"
+  },
+  {
+    "name": "companies",
+    "resource": "/api/views/companies:GET"
+  },
+  {
+    "name": "company_documents",
+    "resource": "/api/views/company_documents:GET"
+  },
+  {
+    "name": "company_revisions",
+    "resource": "/api/views/company_revisions:GET"
+  },
+  {
+    "name": "contractor_engineer_cycle",
+    "resource": "/api/views/contractor_engineer_cycle:GET"
+  },
+  {
+    "name": "corr_attachments",
+    "resource": "/api/views/corr_attachments:GET"
+  },
+  {
+    "name": "corr_attachments_opt",
+    "resource": "/api/views/corr_attachments_opt:GET"
+  },
+  {
+    "name": "corr_file_names",
+    "resource": "/api/views/corr_file_names:GET"
+  },
+  {
+    "name": "corr_flex_element_values",
+    "resource": "/api/views/corr_flex_element_values:GET"
+  },
+  {
+    "name": "corr_forwarded_to",
+    "resource": "/api/views/corr_forwarded_to:GET"
+  },
+  {
+    "name": "corr_query_corr_cycle",
+    "resource": "/api/views/corr_query_corr_cycle:GET"
+  },
+  {
+    "name": "corr_query_details",
+    "resource": "/api/views/corr_query_details:GET"
+  },
+  {
+    "name": "corr_stats_per_element2",
+    "resource": "/api/views/corr_stats_per_element2:GET"
+  },
+  {
+    "name": "correspondence",
+    "resource": "/api/views/correspondence:GET"
+  },
+  {
+    "name": "correspondence_assets",
+    "resource": "/api/views/correspondence_assets:GET"
+  },
+  {
+    "name": "correspondence_old",
+    "resource": "/api/views/correspondence_old:GET"
+  },
+  {
+    "name": "correspondence_register",
+    "resource": "/api/views/correspondence_register:GET"
+  },
+  {
+    "name": "correspondence_stats",
+    "resource": "/api/views/correspondence_stats:GET"
+  },
+  {
+    "name": "correspondence_tree_td",
+    "resource": "/api/views/correspondence_tree_td:GET"
+  },
+  {
+    "name": "dbi_asset_attributes",
+    "resource": "/api/views/dbi_asset_attributes:GET"
+  },
+  {
+    "name": "dbi_asset_item_5_levels",
+    "resource": "/api/views/dbi_asset_item_5_levels:GET"
+  },
+  {
+    "name": "dbi_asset_item_attributes",
+    "resource": "/api/views/dbi_asset_item_attributes:GET"
+  },
+  {
+    "name": "dbi_asset_item_documents",
+    "resource": "/api/views/dbi_asset_item_documents:GET"
+  },
+  {
+    "name": "dbi_asset_item_hierarchy",
+    "resource": "/api/views/dbi_asset_item_hierarchy:GET"
+  },
+  {
+    "name": "dbi_asset_items",
+    "resource": "/api/views/dbi_asset_items:GET"
+  },
+  {
+    "name": "dbi_assigned_checklists",
+    "resource": "/api/views/dbi_assigned_checklists:GET"
+  },
+  {
+    "name": "dbi_ce_documents",
+    "resource": "/api/views/dbi_ce_documents:GET"
+  },
+  {
+    "name": "dbi_comments",
+    "resource": "/api/views/dbi_comments:GET"
+  },
+  {
+    "name": "dbi_corr_query_user_attributes",
+    "resource": "/api/views/dbi_corr_query_user_attributes:GET"
+  },
+  {
+    "name": "dbi_correspondence",
+    "resource": "/api/views/dbi_correspondence:GET"
+  },
+  {
+    "name": "dbi_doc_distribution_history",
+    "resource": "/api/views/dbi_doc_distribution_history:GET"
+  },
+  {
+    "name": "dbi_doc_revs_user_attributes",
+    "resource": "/api/views/dbi_doc_revs_user_attributes:GET"
+  },
+  {
+    "name": "dbi_docs_counts_ext",
+    "resource": "/api/views/dbi_docs_counts_ext:GET"
+  },
+  {
+    "name": "dbi_docs_counts_int",
+    "resource": "/api/views/dbi_docs_counts_int:GET"
+  },
+  {
+    "name": "dbi_document_milestones",
+    "resource": "/api/views/dbi_document_milestones:GET"
+  },
+  {
+    "name": "dbi_document_revisions",
+    "resource": "/api/views/dbi_document_revisions:GET"
+  },
+  {
+    "name": "dbi_document_revisions_planned",
+    "resource": "/api/views/dbi_document_revisions_planned:GET"
+  },
+  {
+    "name": "dbi_document_urls",
+    "resource": "/api/views/dbi_document_urls:GET"
+  },
+  {
+    "name": "dbi_document_user_attributes",
+    "resource": "/api/views/dbi_document_user_attributes:GET"
+  },
+  {
+    "name": "dbi_documents",
+    "resource": "/api/views/dbi_documents:GET"
+  },
+  {
+    "name": "dbi_documents_and_revisions",
+    "resource": "/api/views/dbi_documents_and_revisions:GET"
+  },
+  {
+    "name": "dbi_external_transmittals",
+    "resource": "/api/views/dbi_external_transmittals:GET"
+  },
+  {
+    "name": "dbi_incoming_transmittals",
+    "resource": "/api/views/dbi_incoming_transmittals:GET"
+  },
+  {
+    "name": "dbi_internal_transmittals",
+    "resource": "/api/views/dbi_internal_transmittals:GET"
+  },
+  {
+    "name": "dbi_linked_documents",
+    "resource": "/api/views/dbi_linked_documents:GET"
+  },
+  {
+    "name": "dbi_package_doc_revisions",
+    "resource": "/api/views/dbi_package_doc_revisions:GET"
+  },
+  {
+    "name": "dbi_package_documents",
+    "resource": "/api/views/dbi_package_documents:GET"
+  },
+  {
+    "name": "dbi_package_revisions",
+    "resource": "/api/views/dbi_package_revisions:GET"
+  },
+  {
+    "name": "dbi_packages",
+    "resource": "/api/views/dbi_packages:GET"
+  },
+  {
+    "name": "dbi_periods",
+    "resource": "/api/views/dbi_periods:GET"
+  },
+  {
+    "name": "dbi_person_kpi",
+    "resource": "/api/views/dbi_person_kpi:GET"
+  },
+  {
+    "name": "dbi_queries",
+    "resource": "/api/views/dbi_queries:GET"
+  },
+  {
+    "name": "dbi_work_package_10_levels",
+    "resource": "/api/views/dbi_work_package_10_levels:GET"
+  },
+  {
+    "name": "dbi_work_package_documents",
+    "resource": "/api/views/dbi_work_package_documents:GET"
+  },
+  {
+    "name": "dbi_work_package_hierarchy",
+    "resource": "/api/views/dbi_work_package_hierarchy:GET"
+  },
+  {
+    "name": "dbi_work_packages",
+    "resource": "/api/views/dbi_work_packages:GET"
+  },
+  {
+    "name": "dc_process_time",
+    "resource": "/api/views/dc_process_time:GET"
+  },
+  {
+    "name": "dc_process_time_outgoing",
+    "resource": "/api/views/dc_process_time_outgoing:GET"
+  },
+  {
+    "name": "dc_process_time_outgoing_2",
+    "resource": "/api/views/dc_process_time_outgoing_2:GET"
+  },
+  {
+    "name": "dcc_outstanding",
+    "resource": "/api/views/dcc_outstanding:GET"
+  },
+  {
+    "name": "discipline_doc_types",
+    "resource": "/api/views/discipline_doc_types:GET"
+  },
+  {
+    "name": "disciplines",
+    "resource": "/api/views/disciplines:GET"
+  },
+  {
+    "name": "distr_hist_per_element2",
+    "resource": "/api/views/distr_hist_per_element2:GET"
+  },
+  {
+    "name": "distributed_documents_ext",
+    "resource": "/api/views/distributed_documents_ext:GET"
+  },
+  {
+    "name": "distribution_list",
+    "resource": "/api/views/distribution_list:GET"
+  },
+  {
+    "name": "distribution_matrix",
+    "resource": "/api/views/distribution_matrix:GET"
+  },
+  {
+    "name": "doc_rev_pack",
+    "resource": "/api/views/doc_rev_pack:GET"
+  },
+  {
+    "name": "docs_distribution_hist",
+    "resource": "/api/views/docs_distribution_hist:GET"
+  },
+  {
+    "name": "docs_flex_element_values",
+    "resource": "/api/views/docs_flex_element_values:GET"
+  },
+  {
+    "name": "document_and_revs2",
+    "resource": "/api/views/document_and_revs2:GET"
+  },
+  {
+    "name": "document_and_revs",
+    "resource": "/api/views/document_and_revs:GET"
+  },
+  {
+    "name": "document_approval_codes",
+    "resource": "/api/views/document_approval_codes:GET"
+  },
+  {
+    "name": "document_assets",
+    "resource": "/api/views/document_assets:GET"
+  },
+  {
+    "name": "document_comments",
+    "resource": "/api/views/document_comments:GET"
+  },
+  {
+    "name": "document_distr_list_ext",
+    "resource": "/api/views/document_distr_list_ext:GET"
+  },
+  {
+    "name": "document_files",
+    "resource": "/api/views/document_files:GET"
+  },
+  {
+    "name": "document_files_export",
+    "resource": "/api/views/document_files_export:GET"
+  },
+  {
+    "name": "document_milestones",
+    "resource": "/api/views/document_milestones:GET"
+  },
+  {
+    "name": "document_range",
+    "resource": "/api/views/document_range:GET"
+  },
+  {
+    "name": "document_range_generated",
+    "resource": "/api/views/document_range_generated:GET"
+  },
+  {
+    "name": "document_rev_codes",
+    "resource": "/api/views/document_rev_codes:GET"
+  },
+  {
+    "name": "document_revisions",
+    "resource": "/api/views/document_revisions:GET"
+  },
+  {
+    "name": "document_revs_shell_tnt",
+    "resource": "/api/views/document_revs_shell_tnt:GET"
+  },
+  {
+    "name": "document_schedule",
+    "resource": "/api/views/document_schedule:GET"
+  },
+  {
+    "name": "document_statuses",
+    "resource": "/api/views/document_statuses:GET"
+  },
+  {
+    "name": "document_types",
+    "resource": "/api/views/document_types:GET"
+  },
+  {
+    "name": "document_vs_archive",
+    "resource": "/api/views/document_vs_archive:GET"
+  },
+  {
+    "name": "document_work_package",
+    "resource": "/api/views/document_work_package:GET"
+  },
+  {
+    "name": "documents",
+    "resource": "/api/views/documents:GET"
+  },
+  {
+    "name": "dore_file_names",
+    "resource": "/api/views/dore_file_names:GET"
+  },
+  {
+    "name": "double_receipts",
+    "resource": "/api/views/double_receipts:GET"
+  },
+  {
+    "name": "double_return",
+    "resource": "/api/views/double_return:GET"
+  },
+  {
+    "name": "expected_documents",
+    "resource": "/api/views/expected_documents:GET"
+  },
+  {
+    "name": "external_receipt_cycle",
+    "resource": "/api/views/external_receipt_cycle:GET"
+  },
+  {
+    "name": "external_transm_documents",
+    "resource": "/api/views/external_transm_documents:GET"
+  },
+  {
+    "name": "external_transmittals",
+    "resource": "/api/views/external_transmittals:GET"
+  },
+  {
+    "name": "flex_element_values",
+    "resource": "/api/views/flex_element_values:GET"
+  },
+  {
+    "name": "forwarded_correspondence",
+    "resource": "/api/views/forwarded_correspondence:GET"
+  },
+  {
+    "name": "forwarded_items",
+    "resource": "/api/views/forwarded_items:GET"
+  },
+  {
+    "name": "forwarded_queries",
+    "resource": "/api/views/forwarded_queries:GET"
+  },
+  {
+    "name": "forwarded_query",
+    "resource": "/api/views/forwarded_query:GET"
+  },
+  {
+    "name": "forwarded_query_and_chrc",
+    "resource": "/api/views/forwarded_query_and_chrc:GET"
+  },
+  {
+    "name": "inc_int_ext_cycle",
+    "resource": "/api/views/inc_int_ext_cycle:GET"
+  },
+  {
+    "name": "incoming_correspondence",
+    "resource": "/api/views/incoming_correspondence:GET"
+  },
+  {
+    "name": "internal_external_cycle",
+    "resource": "/api/views/internal_external_cycle:GET"
+  },
+  {
+    "name": "internal_transm_documents",
+    "resource": "/api/views/internal_transm_documents:GET"
+  },
+  {
+    "name": "internal_transmittals",
+    "resource": "/api/views/internal_transmittals:GET"
+  },
+  {
+    "name": "loaded_doc_revisions",
+    "resource": "/api/views/loaded_doc_revisions:GET"
+  },
+  {
+    "name": "markup_files",
+    "resource": "/api/views/markup_files:GET"
+  },
+  {
+    "name": "monitoring_log_details",
+    "resource": "/api/views/monitoring_log_details:GET"
+  },
+  {
+    "name": "monitoring_log_parents",
+    "resource": "/api/views/monitoring_log_parents:GET"
+  },
+  {
+    "name": "monitoring_report",
+    "resource": "/api/views/monitoring_report:GET"
+  },
+  {
+    "name": "ndoc_file_names",
+    "resource": "/api/views/ndoc_file_names:GET"
+  },
+  {
+    "name": "non_documents",
+    "resource": "/api/views/non_documents:GET"
+  },
+  {
+    "name": "object_asset_items",
+    "resource": "/api/views/object_asset_items:GET"
+  },
+  {
+    "name": "object_stakeholder_events",
+    "resource": "/api/views/object_stakeholder_events:GET"
+  },
+  {
+    "name": "online_users",
+    "resource": "/api/views/online_users:GET"
+  },
+  {
+    "name": "outgoing_correspondence",
+    "resource": "/api/views/outgoing_correspondence:GET"
+  },
+  {
+    "name": "pack_distribution_hist",
+    "resource": "/api/views/pack_distribution_hist:GET"
+  },
+  {
+    "name": "pack_docs_and_revs",
+    "resource": "/api/views/pack_docs_and_revs:GET"
+  },
+  {
+    "name": "pack_flex_element_values",
+    "resource": "/api/views/pack_flex_element_values:GET"
+  },
+  {
+    "name": "package_documents",
+    "resource": "/api/views/package_documents:GET"
+  },
+  {
+    "name": "package_rev_codes",
+    "resource": "/api/views/package_rev_codes:GET"
+  },
+  {
+    "name": "package_rev_corr",
+    "resource": "/api/views/package_rev_corr:GET"
+  },
+  {
+    "name": "package_rev_docs",
+    "resource": "/api/views/package_rev_docs:GET"
+  },
+  {
+    "name": "package_revisions",
+    "resource": "/api/views/package_revisions:GET"
+  },
+  {
+    "name": "package_schedule",
+    "resource": "/api/views/package_schedule:GET"
+  },
+  {
+    "name": "package_statuses",
+    "resource": "/api/views/package_statuses:GET"
+  },
+  {
+    "name": "packages",
+    "resource": "/api/views/packages:GET"
+  },
+  {
+    "name": "planned_first_revs",
+    "resource": "/api/views/planned_first_revs:GET"
+  },
+  {
+    "name": "planned_inc_disc_stats",
+    "resource": "/api/views/planned_inc_disc_stats:GET"
+  },
+  {
+    "name": "planned_inc_period_stats",
+    "resource": "/api/views/planned_inc_period_stats:GET"
+  },
+  {
+    "name": "planned_inc_stats",
+    "resource": "/api/views/planned_inc_stats:GET"
+  },
+  {
+    "name": "planned_issue_control",
+    "resource": "/api/views/planned_issue_control:GET"
+  },
+  {
+    "name": "planned_received_documents",
+    "resource": "/api/views/planned_received_documents:GET"
+  },
+  {
+    "name": "procured_equipment",
+    "resource": "/api/views/procured_equipment:GET"
+  },
+  {
+    "name": "progress_ranges",
+    "resource": "/api/views/progress_ranges:GET"
+  },
+  {
+    "name": "project_access",
+    "resource": "/api/views/project_access:GET"
+  },
+  {
+    "name": "project_companies",
+    "resource": "/api/views/project_companies:GET"
+  },
+  {
+    "name": "project_files",
+    "resource": "/api/views/project_files:GET"
+  },
+  {
+    "name": "projects",
+    "resource": "/api/views/projects:GET"
+  },
+  {
+    "name": "purchase_orders",
+    "resource": "/api/views/purchase_orders:GET"
+  },
+  {
+    "name": "query",
+    "resource": "/api/views/query:GET"
+  },
+  {
+    "name": "query_assets",
+    "resource": "/api/views/query_assets:GET"
+  },
+  {
+    "name": "query_attachments",
+    "resource": "/api/views/query_attachments:GET"
+  },
+  {
+    "name": "query_attachments_opt",
+    "resource": "/api/views/query_attachments_opt:GET"
+  },
+  {
+    "name": "query_linked_objects",
+    "resource": "/api/views/query_linked_objects:GET"
+  },
+  {
+    "name": "query_linked_parent_obj",
+    "resource": "/api/views/query_linked_parent_obj:GET"
+  },
+  {
+    "name": "query_responses",
+    "resource": "/api/views/query_responses:GET"
+  },
+  {
+    "name": "rcpt_file_names",
+    "resource": "/api/views/rcpt_file_names:GET"
+  },
+  {
+    "name": "rcpt_flex_element_values",
+    "resource": "/api/views/rcpt_flex_element_values:GET"
+  },
+  {
+    "name": "receipt_int_distr_cycle",
+    "resource": "/api/views/receipt_int_distr_cycle:GET"
+  },
+  {
+    "name": "receipt_int_ext_cycle",
+    "resource": "/api/views/receipt_int_ext_cycle:GET"
+  },
+  {
+    "name": "receipt_int_ext_cycle_test",
+    "resource": "/api/views/receipt_int_ext_cycle_test:GET"
+  },
+  {
+    "name": "receipt_recur_cycle",
+    "resource": "/api/views/receipt_recur_cycle:GET"
+  },
+  {
+    "name": "receipts",
+    "resource": "/api/views/receipts:GET"
+  },
+  {
+    "name": "received_and_reply_cycle",
+    "resource": "/api/views/received_and_reply_cycle:GET"
+  },
+  {
+    "name": "received_documents",
+    "resource": "/api/views/received_documents:GET"
+  },
+  {
+    "name": "received_issue_codes_stats",
+    "resource": "/api/views/received_issue_codes_stats:GET"
+  },
+  {
+    "name": "recipient_group_members",
+    "resource": "/api/views/recipient_group_members:GET"
+  },
+  {
+    "name": "recipient_groups",
+    "resource": "/api/views/recipient_groups:GET"
+  },
+  {
+    "name": "reference_data",
+    "resource": "/api/views/reference_data:GET"
+  },
+  {
+    "name": "representatives",
+    "resource": "/api/views/representatives:GET"
+  },
+  {
+    "name": "saml_persons",
+    "resource": "/api/views/saml_persons:GET"
+  },
+  {
+    "name": "scheduled_jobs",
+    "resource": "/api/views/scheduled_jobs:GET"
+  },
+  {
+    "name": "staff",
+    "resource": "/api/views/staff:GET"
+  },
+  {
+    "name": "standard_distribution_list",
+    "resource": "/api/views/standard_distribution_list:GET"
+  },
+  {
+    "name": "stats_element2",
+    "resource": "/api/views/stats_element2:GET"
+  },
+  {
+    "name": "subclasses",
+    "resource": "/api/views/subclasses:GET"
+  },
+  {
+    "name": "subcontractor_client_cycle",
+    "resource": "/api/views/subcontractor_client_cycle:GET"
+  },
+  {
+    "name": "supplier_distr_cycle",
+    "resource": "/api/views/supplier_distr_cycle:GET"
+  },
+  {
+    "name": "system_parameters",
+    "resource": "/api/views/system_parameters:GET"
+  },
+  {
+    "name": "tags",
+    "resource": "/api/views/tags:GET"
+  },
+  {
+    "name": "tqry_file_names",
+    "resource": "/api/views/tqry_file_names:GET"
+  },
+  {
+    "name": "transm_issue_codes_stats",
+    "resource": "/api/views/transm_issue_codes_stats:GET"
+  },
+  {
+    "name": "transmittal_codes",
+    "resource": "/api/views/transmittal_codes:GET"
+  },
+  {
+    "name": "transmittal_details",
+    "resource": "/api/views/transmittal_details:GET"
+  },
+  {
+    "name": "transmittal_recipients",
+    "resource": "/api/views/transmittal_recipients:GET"
+  },
+  {
+    "name": "transmittal_stats",
+    "resource": "/api/views/transmittal_stats:GET"
+  },
+  {
+    "name": "transmittals",
+    "resource": "/api/views/transmittals:GET"
+  },
+  {
+    "name": "transmitted_correspondence",
+    "resource": "/api/views/transmitted_correspondence:GET"
+  },
+  {
+    "name": "transmitted_doc_comments",
+    "resource": "/api/views/transmitted_doc_comments:GET"
+  },
+  {
+    "name": "transmitted_doc_recipients",
+    "resource": "/api/views/transmitted_doc_recipients:GET"
+  },
+  {
+    "name": "transmitted_docs_rcpt2",
+    "resource": "/api/views/transmitted_docs_rcpt2:GET"
+  },
+  {
+    "name": "transmitted_docs_urls",
+    "resource": "/api/views/transmitted_docs_urls:GET"
+  },
+  {
+    "name": "transmitted_documents",
+    "resource": "/api/views/transmitted_documents:GET"
+  },
+  {
+    "name": "transmitted_non_documents",
+    "resource": "/api/views/transmitted_non_documents:GET"
+  },
+  {
+    "name": "transmitted_query",
+    "resource": "/api/views/transmitted_query:GET"
+  },
+  {
+    "name": "trdo_comments_and_file",
+    "resource": "/api/views/trdo_comments_and_file:GET"
+  },
+  {
+    "name": "trns_file_names",
+    "resource": "/api/views/trns_file_names:GET"
+  },
+  {
+    "name": "trns_flex_element_values",
+    "resource": "/api/views/trns_flex_element_values:GET"
+  },
+  {
+    "name": "view_columns1",
+    "resource": "/api/views/view_columns1:GET"
+  },
+  {
+    "name": "view_columns",
+    "resource": "/api/views/view_columns:GET"
+  },
+  {
+    "name": "views",
+    "resource": "/api/views/views:GET"
+  },
+  {
+    "name": "wfac_corr_details",
+    "resource": "/api/views/wfac_corr_details:GET"
+  },
+  {
+    "name": "wfac_docs_details",
+    "resource": "/api/views/wfac_docs_details:GET"
+  },
+  {
+    "name": "wfac_dore_details",
+    "resource": "/api/views/wfac_dore_details:GET"
+  },
+  {
+    "name": "wfac_email",
+    "resource": "/api/views/wfac_email:GET"
+  },
+  {
+    "name": "wfac_tqry_details",
+    "resource": "/api/views/wfac_tqry_details:GET"
+  },
+  {
+    "name": "wopa_hierarchy",
+    "resource": "/api/views/wopa_hierarchy:GET"
+  },
+  {
+    "name": "wopa_hierarchy_docs",
+    "resource": "/api/views/wopa_hierarchy_docs:GET"
+  },
+  {
+    "name": "wopa_running_progress",
+    "resource": "/api/views/wopa_running_progress:GET"
+  },
+  {
+    "name": "wopa_running_progress_all",
+    "resource": "/api/views/wopa_running_progress_all:GET"
+  },
+  {
+    "name": "wopa_top_down",
+    "resource": "/api/views/wopa_top_down:GET"
+  },
+  {
+    "name": "work_flow_actions",
+    "resource": "/api/views/work_flow_actions:GET"
+  },
+  {
+    "name": "work_flow_setup",
+    "resource": "/api/views/work_flow_setup:GET"
+  },
+  {
+    "name": "work_flow_structure",
+    "resource": "/api/views/work_flow_structure:GET"
+  },
+  {
+    "name": "work_package_progress",
+    "resource": "/api/views/work_package_progress:GET"
+  },
+  {
+    "name": "work_packages",
+    "resource": "/api/views/work_packages:GET"
+  },
+  {
+    "name": "workflow_role_matrix_list",
+    "resource": "/api/views/workflow_role_matrix_list:GET"
+  }
+]
