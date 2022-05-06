@@ -1,4 +1,4 @@
-Feature: Checking RestAPI
+Feature: Test get application call in RestAPI
 
   Background: 
     * def baseUrl = baseUrl

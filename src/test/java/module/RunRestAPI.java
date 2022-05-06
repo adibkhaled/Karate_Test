@@ -1,3 +1,8 @@
+/*
+ * This is runner to run the Karate tool by using JUnit.
+ * This runner can support parallel running 
+ */
+
 package module;
 
 import static org.junit.Assert.assertTrue;
@@ -20,16 +25,17 @@ import net.masterthought.cucumber.ReportBuilder;
 public class RunRestAPI{
 	
 	//static String selectedEnvironments = System.getProperty("environment");
-	static String selectedEnvironments = "eu602";
+	static String selectedEnvironments = "env_1,env_2";
 	static String[] testngParams = selectedEnvironments.split(",");
     Results results;
 
 	@Test
     public void testParallel() throws Throwable {
+		//The for is using to run the test in multiple environment. 
 		for (String cloudEnv : testngParams) {
 		System.setProperty("karate.env" , cloudEnv);
-		if("eu602".equalsIgnoreCase(cloudEnv)){
-            results = Runner.path("src/test/resources/RestAPI").tags("~@ignore").parallel(1);
+		if("env_1".equalsIgnoreCase(cloudEnv)){
+            results = Runner.path("src/test/resources/RestAPI").tags("~@ignore").parallel(4);
         }else{
             results = Runner.path("src/test/resources/RestAPI/RestAPI.feature").tags("~@ignore").parallel(1);
         }

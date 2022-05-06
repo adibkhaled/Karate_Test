@@ -1,3 +1,4 @@
+//if application has basic auth
 function fn(creds) {
     var temp = creds.username + ':' + creds.password;
     var Base64 = Java.type('java.util.Base64');

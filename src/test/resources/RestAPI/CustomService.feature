@@ -1,9 +1,8 @@
-@ignore
-Feature: Testing and comparing custom services
+Feature: Testing rest api by using CSV file 
 
   Background:
     * def baseUrl = baseUrl
-    * def customServiceUrl = 'https://eu.assaicloud.com/AAeu602/'
+    * def customServiceUrl = 'https://env_1.assaicloud.com/AAenv_1/'
     * def user = userName
     * def customServiceUser = userNameCustomService
     * def pass = password
