@@ -26,4 +26,4 @@ Feature: Testing rest api by using CSV file
     * def newResponse = response
     And match oldResponse == newResponse
     Examples:
-      | read('CSV/RestAPI.csv') |
+      | read('classpath:CSV/RestAPI.csv') |
