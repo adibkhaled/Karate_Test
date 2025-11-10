@@ -1,29 +1,28 @@
 function fn() {
 	var env = karate.env; // get java system property 'karate.env'
-	//var Config = Java.type('helpers.DataHelper');
+	var Config = Java.type('helpers.DataHelper');
 	var ConfigLogin = Java.type('step_definitions.LoginAssaiDCMSCloudSteps');
 	karate.log('karate.env system property was:', env);
 	
 	var config = { 
 		env : env,
-		userName : ConfigLogin.buildUserNameAA(env), // used username from keypass
-		password : Config.readPwdFromKeePassForRest(env), // used pass from keypass
-		baseUrl : ConfigLogin.getApiURL(env),
-		userNameCustomService: 'adibkhaled@api.com',
+		userName : java.lang.System.getenv('API_USER'),
+		password : java.lang.System.getenv('API_PASSWORD'),
+		baseUrl : java.lang.System.getenv('API_BASE_URL'),
 		pathURL : '/api/views/',
 		postURL	: '/api/'
 	};
-	if (env == "env_2") {
+	if (env == 'dev') {
 		// over-ride only those that need to be
-		config.baseUrl = 'https://env_2.assaicloud.com/AAenv_2';
-		config.userName = 
-		config.password = 
+		config.baseUrl = 'https://localhost/dev/';
+		config.userName = '',
+		config.password = ''
 		
-	} else if (env == 'env_1') {
-		config.baseUrl = 'https://env_1.assaicloud.com/AAenv_1/';
+	} else if (env == 'test') {
+		config.baseUrl = 'http://localhost:8080/test/';
 		config.userName =
-		config.password = 
-		
+		config.password = ''
+
 	} else{
 		
 	}
